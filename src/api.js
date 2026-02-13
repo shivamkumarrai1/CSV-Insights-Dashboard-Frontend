@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://csv-insights-dashboard-backend-1.onrender.com";
 
 export const generateInsights = async(payload) => {
     const res = await fetch(`${BASE_URL}/reports/generate`, {
